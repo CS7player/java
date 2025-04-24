@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 import java.util.Scanner;
 //WAPTP square of a given number
 public class Q008 {

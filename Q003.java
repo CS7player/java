@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 import java.util.Scanner;
 //WAPTP product of the numbers between m to n
 public class Q003 {

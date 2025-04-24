@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 import java.util.Scanner;
 
 //WAPT count the numbers from m to n

@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 import java.util.Scanner;
 //WAPT swap two numbers
 public class Q006 {

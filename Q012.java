@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 import java.util.Scanner;
 import java.util.Arrays;
 //WAPTP factors of a number

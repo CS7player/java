@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 public class MyEXceptions extends Exception {
  static class WrongOrderException extends Exception {
   public WrongOrderException() {

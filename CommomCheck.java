@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 public class CommomCheck {
  public static void orderCheck(int a, int b) throws MyEXceptions.WrongOrderException {
   if (a > b) {

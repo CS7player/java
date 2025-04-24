@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 import java.util.Scanner;
 //WAPTP factorial value of a number
 public class Q010 {

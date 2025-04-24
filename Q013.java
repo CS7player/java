@@ -1,3 +1,4 @@
+package core_level_programming.number_programming;
 import java.util.Scanner;
 //WAPT power from m to n
 public class Q013 {

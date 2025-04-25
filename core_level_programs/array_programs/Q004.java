@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import core_level_programs.reusable_code.CommonCheck;
-public class Q001 {
+public class Q004 {
  public static void main(String[] args){
   Scanner sc = new Scanner(System.in);
   try {

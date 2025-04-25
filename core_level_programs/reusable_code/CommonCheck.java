@@ -6,4 +6,16 @@ public class CommonCheck {
     throw new MyException.LimitException();
   }
  }
+
+ 
+
+
+ //Error Handler;
+ public static void errorHandler(Exception e){
+  if(e.getMessage() == null){
+   System.out.println("Invalid Number input !!!");
+   return;
+  }
+  System.out.println(e.getMessage());
+ }
 }  

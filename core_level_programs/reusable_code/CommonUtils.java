@@ -1,9 +1,4 @@
 package core_level_programs.reusable_code;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class CommonUtils {
 
  //Bubble Sorting

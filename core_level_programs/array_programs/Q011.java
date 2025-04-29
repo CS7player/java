@@ -1,9 +1,7 @@
 package core_level_programs.array_programs;
-
 import java.util.HashMap;
 import java.util.Scanner;
 import core_level_programs.reusable_code.CommonCheck;
-import core_level_programs.reusable_code.CommonUtils;
 
 public class Q011 {
  public static void main(String[] args) {

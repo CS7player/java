@@ -7,9 +7,6 @@ public class CommonCheck {
   }
  }
 
- 
-
-
  //Error Handler;
  public static void errorHandler(Exception e){
   if(e.getMessage() == null){

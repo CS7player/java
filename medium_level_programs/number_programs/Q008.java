@@ -4,30 +4,28 @@ import java.util.Scanner;
 
 import medium_level_programs.reusable_code.CommonCheck;
 
-public class Q007 {
+public class Q008 {
  public static void main(String[] args) {
   Scanner sc = new Scanner(System.in);
   try {
    System.out.print("enter the number : ");
    int num = sc.nextInt();
    CommonCheck.isNegative(num);
-   int count = 0;
-   int prime = 1;
-   while (count < num) {
-    int factor = 0;
-    for (int i = 1; i <= prime; i++) {
-     if (prime % i == 0) {
+   int nextPrime = num;
+   int factor = 0;
+   while (true) {
+    factor = 0;
+    nextPrime++;
+    for (int i = 1; i <= nextPrime; i++) {
+     if (nextPrime % i == 0) {
       factor++;
      }
     }
-    if (factor == 2) {
-     count++;
+    if(factor==2){
+     break;
     }
-    if (count == num) {
-     System.out.println(prime);
-    }
-    prime++;
    }
+   System.out.println(nextPrime);
   } catch (Exception e) {
    CommonCheck.errorHandler(e);
   } finally {
